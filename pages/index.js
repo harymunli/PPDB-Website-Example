@@ -73,15 +73,26 @@ export default function Home() {
             </div>
             <div class="relative border-4 shadow-lg">
                 <div class="inline-block top-0 py-2 px-4">Syarat Pendaftaran</div>
-                <button class="w-6 h-6 absolute right-2 top-0"><svg class="w-6 h-6 absolute right-0 top-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                <button id="syapen-btn" class="w-6 h-6 absolute right-2 top-0"><svg class="w-6 h-6 absolute right-0 top-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                <ol id="syapen" class="list-decimal ml-8 hidden">
+                  <li class="text-sm">Beragama Islam</li>
+                  <li class="text-sm">Memiliki NISN</li>
+                  <li class="text-sm">Berusaha maksimum 15 tahun pada 1 Juli 2023</li>
+                  <li class="text-sm">Berkas yang harus dilengkapi pada waktu Pendaftaran:</li>
+                  <ul class="list-disc ml-4">
+                    <li class="text-sm">a. Mengisi Formulir Pendaftaran</li>
+                    <li class="text-sm">b. Uang pendaftaran Rp.300.000</li>
+                    <li class="text-sm">c. Pas foto warna 3x4 background merah sejumlah 4 lembar untuk putri berjilbab putuh</li>
+                  </ul>
+                </ol>
             </div>
             <div class="relative border-4 shadow-lg">
                 <div class="inline-block top-0 py-2 px-4">Informasi Tes PPDB</div>
                 <button class="w-6 h-6 absolute right-2 top-0"><svg class="w-6 h-6 absolute right-0 top-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
             </div> 
         </div>       
-    </div>
-
+      </div>
+      <script src="index.js"></script>
       </main>
     </div>
   )
