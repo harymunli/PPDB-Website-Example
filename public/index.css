@@ -1,0 +1,43 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: larger;
+}
+
+#nama-sekolah > p{
+    font-weight: bold;
+    color: blue;
+}
+
+#nav-menu > span{
+    font-weight: bold;
+    color: blue;
+}
+
+#login{
+    margin-top: 3%;
+}
+
+div > button > svg{
+    float: right;
+}
+
+
+.navbar-fixed {
+    @apply fixed z-10 bg-white bg-opacity-80
+}
+
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-dark
+}
+
+.hamburger-active > span:first-child {
+    @apply origin-top-left rotate-45;
+}
+
+.hamburger-active > span:nth-child(2){
+    @apply scale-0;
+}
+
+.hamburger-active > span:last-child {
+    @apply origin-bottom-left -rotate-45;
+}
