@@ -1,7 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
+import YouTubeIcon  from '@material-ui/icons/YouTube'
+import FacebookIcon from '@material-ui/icons/Facebook'
+import InstagramIcon from '@material-ui/icons/Instagram'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,11 +21,11 @@ export default function Home() {
       <main className="p-4">
         {/* navbar */}
         <div className="float-left mx-8">
-          <div class="grid-cols-2">
-              <img src="assets/logo_sekolah.png" alt="Logo Sekolah" width="40px" height="40px" class="inline-block"/>
-              <span id="nama-sekolah" class="grid-rows-2 text-sm mx-4 align-middle inline-block">
-                  <p class="text-start">SMP MUHAMMADIYAH 1</p>
-                  <p class="text-start">DENPASAR</p>
+          <div classname="grid-cols-2">
+              <img src="assets/logo_sekolah.png" alt="Logo Sekolah" width="40px" height="40px" classname="inline-block"/>
+              <span id="nama-sekolah" classname="grid-rows-2 text-sm mx-4 align-middle inline-block">
+                  <p classname="text-start">SMP MUHAMMADIYAH 1</p>
+                  <p classname="text-start">DENPASAR</p>
               </span>
           </div>
         </div>
@@ -92,6 +94,23 @@ export default function Home() {
             </div> 
         </div>       
       </div>
+
+      {/* <!-- Kontak --> */}
+      <section className="grid grid-cols-2 mt-10">
+        <div className="bg-indigo-500 flex-row">
+          <p className="text-center"> Hubungi Kami </p>
+          <form className="flex flex-col">
+            <input placeholder="Nama Anda..."></input>
+            <textarea placeholder="Pesan Anda..."></textarea>
+          </form>
+          <YouTubeIcon/> <span> Muhammadiyah 1 Denpasar </span> <br/>
+          <FacebookIcon/> <span>Muhammadiyah 1 Denpasar</span>
+          <InstagramIcon/> <span> Mutu Denpasar </span>
+        </div>   
+        
+        <p class="text-center"> Map lokasi </p>
+      </section>
+
       <script src="index.js"></script>
       </main>
     </div>
