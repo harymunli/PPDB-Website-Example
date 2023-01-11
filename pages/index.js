@@ -95,16 +95,16 @@ export default function Home() {
 
       {/* <!-- Kontak --> */}
       <p className='text-4xl text-center border-b-4 border-yellow-400 mx-[100px] mb-4 mt-10'> Kontak Kami </p>
-      <section className="grid grid-cols-2 bg-indigo-500">
+      <section className="grid grid-cols-2 bg-indigo-500 p-4 mx-8 rounded-lg">
         <div className=" flex-row">
           <p className="text-center text-col text-white mt-8 xl mb-4"> Hubungi Kami </p>
           <div className='ml-6'>
             <form className="flex flex-col">
-              <input className='rounded-full my-4' placeholder="Nama Anda..."></input>
+              <input className='rounded-full mt-4 mb-6' placeholder="Nama Anda..."></input>
               <textarea className='rounded-lg mb-12' placeholder="Pesan Anda..." height="400px"></textarea>
             </form>
-            <YouTubeIcon/> <span className='ml-2 mb-4 text-white'> Muhammadiyah 1 Denpasar </span> <br/>
-            <FacebookIcon/> <span className='ml-2 mb-4 text-white'>Muhammadiyah 1 Denpasar</span> <br/>
+            <div className='mb-2'><YouTubeIcon/> <span className='ml-2 mb-4 text-white'> Muhammadiyah 1 Denpasar </span></div>
+            <div className='mb-2'> <FacebookIcon/> <span className='ml-2 mb-4 text-white'>Muhammadiyah 1 Denpasar</span> </div>
             <InstagramIcon/> <span className='ml-2 mb-4 text-white'> Mutu Denpasar </span>
           </div>
             
