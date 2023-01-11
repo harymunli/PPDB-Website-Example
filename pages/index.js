@@ -100,8 +100,8 @@ export default function Home() {
           <p className="text-center text-col text-white mt-8 xl mb-4"> Hubungi Kami </p>
           <div className='ml-6'>
             <form className="flex flex-col">
-              <input className='rounded-full mb-4' placeholder="Nama Anda..."></input>
-              <textarea className='rounded-full mb-4' placeholder="Pesan Anda..." height="400px"></textarea>
+              <input className='rounded-full my-4' placeholder="Nama Anda..."></input>
+              <textarea className='rounded-lg mb-12' placeholder="Pesan Anda..." height="400px"></textarea>
             </form>
             <YouTubeIcon/> <span className='ml-2 mb-4 text-white'> Muhammadiyah 1 Denpasar </span> <br/>
             <FacebookIcon/> <span className='ml-2 mb-4 text-white'>Muhammadiyah 1 Denpasar</span> <br/>
@@ -110,7 +110,7 @@ export default function Home() {
             
         </div>   
         
-        <img src="assets/gmap_lokasi.png" alt='lokasi-google-map' className='rounded-lg' width="874px" x height="688px"></img>
+        <img src="assets/gmap_lokasi.png" alt='lokasi-google-map' className='rounded-lg' width="874px" height="688px"></img>
       </section>
 
       <script src="index.js"></script>

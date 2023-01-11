@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-input::placeholder{
+input{
   background-color: #d1d5db;
   color:#6b7280;
 }
 
-textarea::placeholder{
+textarea{
   background-color: #d1d5db;
   color:#6b7280;
+  min-height: 200px;
 }
 
 input{
