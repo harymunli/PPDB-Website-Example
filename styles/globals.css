@@ -2,21 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-input{
+
+#index_input{
   background-color: #d1d5db;
   color:#6b7280;
+  border-color: #d1d5db;
 }
 
-textarea{
+#index_textarea{
   background-color: #d1d5db;
   color:#6b7280;
   min-height: 200px;
 }
-
-input{
-  border-color: #d1d5db;
-}
-
 
 :root {
   --max-width: 1100px;

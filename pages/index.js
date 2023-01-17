@@ -70,8 +70,8 @@ export default function Home() {
         <div className=" flex-row">
           <div className='ml-6'>
             <form className="flex flex-col">
-              <input className='rounded-full mt-4 mb-6' placeholder="Nama Anda..."></input>
-              <textarea className='rounded-lg mb-8' placeholder="Pesan Anda..." height="400px"></textarea>
+              <input id="index_input" className='rounded-full mt-4 mb-6' placeholder="Nama Anda..."></input>
+              <textarea id="index_textarea" className='rounded-lg mb-8' placeholder="Pesan Anda..." height="400px"></textarea>
             </form>
             <div className='mb-2'><YouTubeIcon/> <span className='ml-2 mb-4 text-white'> SMAN 0 Sawahlunto </span></div>
             <div className='mb-2'> <FacebookIcon/> <span className='ml-2 mb-4 text-white'>SMAN 0 Sawahlunto</span> </div>

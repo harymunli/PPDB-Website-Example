@@ -14,7 +14,7 @@ export default function Navbar() {
                         <a href="#">Home</a>
                         <a href="#faq">Informasi PPDB</a>
                         <a href="#kontak">Kontak</a>
-                        <a>Daftar PPDB</a>
+                        <a href="/daftar">Daftar PPDB</a>
                     </div> 
                     <div class="mr-4">
                         <button class="float-right rounded-md grid bg-blue-900 hover:bg-blue-700 duration-700 text-white p-2 px-8 text-sm ease-in-out">Download Brosur</button>
