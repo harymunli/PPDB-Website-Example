@@ -1,18 +1,14 @@
 import Head from 'next/head'
-// import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import Navbar from '../components/Navbar'
 import YouTubeIcon  from '@material-ui/icons/YouTube'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import InstagramIcon from '@material-ui/icons/Instagram'
-import { Face } from '@material-ui/icons'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <div class="bg-white">
       <Head>
-        <title>slicing</title>
+        <title>PPDB SMAN 0 Sawahlunto</title>
         <meta name="description" content="PPDB Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -20,11 +16,12 @@ export default function Home() {
       </Head>
 
       <main className="p-4">
+        <Navbar />
         {/* navbar */}
-        <div className="flex float-left mx-8">
+        {/* <div className="flex float-left mx-8">
             <img src="assets/logo_sekolah.png" alt="Logo Sekolah" width="40px" height="40px" className=""/>
             <span id="nama-sekolah" className="grid-rows-2 text-sm mx-4 align-middle">
-                <p className="text-start">SMAN 2</p>
+                <p className="text-start">SMAN 0</p>
                 <p className="text-start">Sawahlunto</p>
             </span>
         </div>
@@ -39,8 +36,7 @@ export default function Home() {
             <div class="mr-4">
                 <button class="float-right rounded-md grid bg-blue-900 hover:bg-blue-700 duration-700 text-white p-2 px-8 text-sm ease-in-out">Download Brosur</button>
             </div>
-        </div>
-
+        </div> */}
 
       {/* <!-- login --> */}
       <div id="login" class="mt-18 bg-indigo-500 grid grid-cols-2 p-4 mx-8 rounded-lg">
@@ -105,16 +101,14 @@ export default function Home() {
               <input className='rounded-full mt-4 mb-6' placeholder="Nama Anda..."></input>
               <textarea className='rounded-lg mb-8' placeholder="Pesan Anda..." height="400px"></textarea>
             </form>
-            <div className='mb-2'><YouTubeIcon/> <span className='ml-2 mb-4 text-white'> SMAN 2 Sawahlunto </span></div>
-            <div className='mb-2'> <FacebookIcon/> <span className='ml-2 mb-4 text-white'>SMAN 2 Sawahlunto</span> </div>
-            <InstagramIcon/> <span className='ml-2 mb-4 text-white'> Mutu Denpasar </span>
+            <div className='mb-2'><YouTubeIcon/> <span className='ml-2 mb-4 text-white'> SMAN 0 Sawahlunto </span></div>
+            <div className='mb-2'> <FacebookIcon/> <span className='ml-2 mb-4 text-white'>SMAN 0 Sawahlunto</span> </div>
+            <InstagramIcon/> <span className='ml-2 mb-4 text-white'> SMAN 0 Sawahlunto </span>
           </div>
         </div>   
         
         <img src="assets/gmap_lokasi.png" alt='lokasi-google-map' className='rounded-lg px-4 my-auto'></img>
       </section>
-
-      <div className='text-center bg-black text-white text-base'>From Figma Desain by IT Mutu Denpasar</div>
 
       <script src="index.js"></script>
       </main>
