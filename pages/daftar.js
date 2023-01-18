@@ -23,6 +23,11 @@ export default function Daftar(){
                             <Optionalinput label="Tanggal Lahir" />
                         </div>
                         <Mustinput label="Password" />
+                        <div className='flex space-x-[200px] justify-center w-[600px] mx-auto mb-4'>
+                            <button className=" text-white bg-red-500 hover:bg-red-300 p-2 rounded-lg w-[200px]">Reset Data</button>
+                            <button type="submit" className=" text-white bg-blue-900 hover:bg-blue-700 p-2 mx-8 rounded-lg w-[200px]">Daftar </button>
+                        </div>
+                        Sudah punya akun? klik disini
                     </div>
                 </form>
             </main>
