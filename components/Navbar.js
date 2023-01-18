@@ -39,9 +39,9 @@ export default class Navbar extends React.Component {
 
                     <div class="grid grid-cols-3">
                        <Menu_Navbar mpage={this.props.page}/>
-                        <div class="mr-4">
+                        {/* <div class="mr-4">
                             <button class="float-right rounded-md grid bg-blue-900 hover:bg-blue-700 duration-700 text-white p-2 px-8 text-sm ease-in-out">Download Brosur</button>
-                        </div>
+                        </div> */}
                     </div>
             </div>                
         )

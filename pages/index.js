@@ -21,10 +21,10 @@ export default function Home() {
                 <p> dengan mulai belajar di lembaga pendidikan terbaik. </p>
             </div>
                 
-            <div className="space-x-4 mt-10">
+            {/* <div className="space-x-4 mt-10">
                 <button className="bg-blue-900 hover:bg-blue-700 p-2 px-8 rounded-md">Login</button>
                 <button className="bg-yellow-400 hover:bg-yellow-300 p-2 px-8 rounded-md">Cek Status Pembayaran</button>
-            </div>
+            </div> */}
         </div>
         <div className="relative">
             <img className="absolute top-0 right-0" src="assets/blob-kuning.svg" alt="blob blob-kuning" width="130" height="130"></img>
