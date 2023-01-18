@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
-import Input from '../components/Input'
+import Mustinput from '../components/Mustinput'
+import Optionalinput from '../components/Optional_Input'
 
 export default function Daftar(){
     return (
@@ -10,16 +11,18 @@ export default function Daftar(){
                 <Navbar />
 
                 {/* <!-- Register Form --> */}
-                <form class="relative border-4 shadow-lg m-8">
-                    <p class='text-4xl text-center border-b-4 border-yellow-400 mx-[100px] mb-4 mt-10'> Pendaftaran PPDB 2023/2024</p>
-                    <div class="flex flex-col space-y-4">
-                        <Input label="NISN" />
-                        <Input label="Nama Lengkap" />
-                        <Input label="Asal Sekolah" />
-                        <Input label="No Handphone / Whatsapp" />
-                        <Input label="Tempat Lahir" />
-                        <Input label="Tanggal Lahir" />
-                        <Input label="Password" />
+                <form className="relative border-4 shadow-lg m-8 p-4">
+                    <p className='text-4xl text-center border-b-4 border-yellow-400 mx-[100px] mb-4 mt-10'> Pendaftaran PPDB 2023/2024</p>
+                    <div className="flex flex-col space-y-4">
+                        <Mustinput label="NISN" />
+                        <Mustinput label="Nama Lengkap" />
+                        <Mustinput label="Asal Sekolah" />
+                        <Mustinput label="No Handphone / Whatsapp" />
+                        <div className='mx-auto'>
+                            <Optionalinput label="Tempat Lahir" />
+                            <Optionalinput label="Tanggal Lahir" />
+                        </div>
+                        <Mustinput label="Password" />
                     </div>
                 </form>
             </main>
