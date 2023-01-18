@@ -8,7 +8,7 @@ export default function Daftar(){
         <div class="bg-white">
             <Header />
             <main className="p-4">
-                <Navbar />
+                <Navbar page="daftar"/>
 
                 {/* <!-- Register Form --> */}
                 <form className="relative border-4 shadow-lg m-8 p-4">

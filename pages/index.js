@@ -9,7 +9,7 @@ export default function Home() {
     <div className="bg-white">
       <Header />
       <main className="p-4 mt-12">
-        <Navbar />
+        <Navbar page="index"/>
 
       {/* <!-- login --> */}
       <div id="#home" className="mt-18 bg-indigo-500 grid grid-cols-2 pt-8 px-4 mx-8 rounded-lg">
@@ -40,12 +40,12 @@ export default function Home() {
             <div className="relative border-4 shadow-lg">
                 <div className="inline-block top-0 py-2 px-4">Alur Pendaftaran</div>
                 <button id="alpen-btn"className="w-6 h-6 absolute right-2 top-0"><svg className="w-6 h-6 absolute right-0 top-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-                <p id="alpen" className='px-4 text-sm pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper mauris id est ullamcorper consectetur. Morbi pellentesque aliquam libero, ut porta odio ullamcorper eget. Morbi molestie nisi augue, nec lacinia lacus maximus quis. Sed leo ipsum, cursus a vestibulum ut, rhoncus nec quam. Nunc commodo mi tempor nunc malesuada, ut vulputate metus eleifend. Donec elit diam, rutrum tempus convallis vel, pharetra quis elit. Morbi ex eros, molestie id ullamcorper in, egestas ac mi. Quisque id tortor ut felis vulputate efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis at tincidunt ex. Phasellus nec nisl tincidunt, pellentesque lacus ac, interdum lectus. Nulla vitae turpis et lorem suscipit hendrerit posuere a diam. Praesent volutpat mi sapien, porttitor sodales nisl aliquet nec.</p>
+                <p id="alpen" className='hidden px-4 text-sm pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper mauris id est ullamcorper consectetur. Morbi pellentesque aliquam libero, ut porta odio ullamcorper eget. Morbi molestie nisi augue, nec lacinia lacus maximus quis. Sed leo ipsum, cursus a vestibulum ut, rhoncus nec quam. Nunc commodo mi tempor nunc malesuada, ut vulputate metus eleifend. Donec elit diam, rutrum tempus convallis vel, pharetra quis elit. Morbi ex eros, molestie id ullamcorper in, egestas ac mi. Quisque id tortor ut felis vulputate efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis at tincidunt ex. Phasellus nec nisl tincidunt, pellentesque lacus ac, interdum lectus. Nulla vitae turpis et lorem suscipit hendrerit posuere a diam. Praesent volutpat mi sapien, porttitor sodales nisl aliquet nec.</p>
             </div>
             <div className="relative border-4 shadow-lg">
                 <div className="inline-block top-0 py-2 px-4">Syarat Pendaftaran</div>
                 <button id="syapen-btn" className="w-6 h-6 absolute right-2 top-0"><svg className="w-6 h-6 absolute right-0 top-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-                <ol id="syapen" className="list-decimal ml-8 pb-2">
+                <ol id="syapen" className="hidden list-decimal ml-8 pb-2">
                   <li className="text-sm">Memiliki NISN</li>
                   <li className="text-sm">Berusia maksimum 15 tahun pada 1 Juli 2023</li>
                   <li className="text-sm">Berkas yang harus dilengkapi pada waktu Pendaftaran:</li>
@@ -59,7 +59,7 @@ export default function Home() {
             <div className="relative border-4 shadow-lg">
                 <div className="inline-block top-0 py-2 px-4">Informasi Tes PPDB</div>
                 <button id="intes_btn" className="intes-btn w-6 h-6 absolute right-2 top-0"><svg className="w-6 h-6 absolute right-0 top-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-                <p id="intes" className='px-4 text-sm pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper mauris id est ullamcorper consectetur. Morbi pellentesque aliquam libero, ut porta odio ullamcorper eget. Morbi molestie nisi augue, nec lacinia lacus maximus quis. Sed leo ipsum, cursus a vestibulum ut, rhoncus nec quam. Nunc commodo mi tempor nunc malesuada, ut vulputate metus eleifend. Donec elit diam, rutrum tempus convallis vel, pharetra quis elit. Morbi ex eros, molestie id ullamcorper in, egestas ac mi. Quisque id tortor ut felis vulputate efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis at tincidunt ex. Phasellus nec nisl tincidunt, pellentesque lacus ac, interdum lectus. Nulla vitae turpis et lorem suscipit hendrerit posuere a diam. Praesent volutpat mi sapien, porttitor sodales nisl aliquet nec.</p>
+                <p id="intes" className='hidden px-4 text-sm pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper mauris id est ullamcorper consectetur. Morbi pellentesque aliquam libero, ut porta odio ullamcorper eget. Morbi molestie nisi augue, nec lacinia lacus maximus quis. Sed leo ipsum, cursus a vestibulum ut, rhoncus nec quam. Nunc commodo mi tempor nunc malesuada, ut vulputate metus eleifend. Donec elit diam, rutrum tempus convallis vel, pharetra quis elit. Morbi ex eros, molestie id ullamcorper in, egestas ac mi. Quisque id tortor ut felis vulputate efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis at tincidunt ex. Phasellus nec nisl tincidunt, pellentesque lacus ac, interdum lectus. Nulla vitae turpis et lorem suscipit hendrerit posuere a diam. Praesent volutpat mi sapien, porttitor sodales nisl aliquet nec.</p>
             </div> 
         </div>       
       </div>
