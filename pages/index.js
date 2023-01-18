@@ -73,9 +73,9 @@ export default function Home() {
               <input id="index_input" className='rounded-full mt-4 mb-6' placeholder="Nama Anda..."></input>
               <textarea id="index_textarea" className='rounded-lg mb-8' placeholder="Pesan Anda..." height="400px"></textarea>
             </form>
-            <div className='mb-2'><YouTubeIcon/> <span className='ml-2 mb-4 text-white'> SMAN 0 Sawahlunto </span></div>
-            <div className='mb-2'> <FacebookIcon/> <span className='ml-2 mb-4 text-white'>SMAN 0 Sawahlunto</span> </div>
-            <InstagramIcon/> <span className='ml-2 mb-4 text-white'> SMAN 0 Sawahlunto </span>
+            <div className='mb-2'><YouTubeIcon/> <a href='https://www.youtube.com/' className='ml-2 mb-4 text-white'> SMAN 0 Sawahlunto </a></div>
+            <div className='mb-2'> <FacebookIcon/> <a href='https://www.facebook.com/' className='ml-2 mb-4 text-white'>SMAN 0 Sawahlunto</a> </div>
+            <InstagramIcon/> <a href='https://www.instagram.com/' className='ml-2 mb-4 text-white'> SMAN 0 Sawahlunto </a>
           </div>
         </div>   
         

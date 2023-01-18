@@ -1,4 +1,5 @@
 import React from "react";
+import BrosurImg from "../public/assets/brosur.jpg";
 
 class Menu_Navbar extends React.Component{
     constructor(props){
@@ -26,6 +27,21 @@ export default class Navbar extends React.Component {
         super(props);
     }
 
+    onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch(BrosurImg).then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'brosur.jpg';
+                alink.click();
+            })
+        })
+    }
+
     render() {
         return (
             <div className="fixed top-0 left-0 right-0 bg-slate-100 z-20 p-4 mb-4">
@@ -39,9 +55,9 @@ export default class Navbar extends React.Component {
 
                     <div class="grid grid-cols-3">
                        <Menu_Navbar mpage={this.props.page}/>
-                        {/* <div class="mr-4">
-                            <button class="float-right rounded-md grid bg-blue-900 hover:bg-blue-700 duration-700 text-white p-2 px-8 text-sm ease-in-out">Download Brosur</button>
-                        </div> */}
+                        <div class="mr-4">
+                            <button id="dl-brosur-button" onClick={this.onButtonClick} class="float-right rounded-md grid bg-blue-900 hover:bg-blue-700 duration-700 text-white p-2 px-8 text-sm ease-in-out">Download Brosur</button>
+                        </div>
                     </div>
             </div>                
         )

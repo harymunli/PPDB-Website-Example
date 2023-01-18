@@ -7,6 +7,8 @@ const btn2 = document.getElementById("alpen-btn")
 const inftes = document.getElementById("intes")
 const inftes_btn = document.getElementById("intes-btn")
 
+const brosur_btn = document.getElementById("dl-brosur-button")
+
 btn.addEventListener("click", () => {
     syapen.classList.toggle("hidden");
 })
@@ -18,3 +20,7 @@ btn2.addEventListener("click", () => {
 intes_btn.addEventListener("click", () => {
     inftes.classList.toggle("hidden");
 })
+
+brosur_btn.addEventListener("click"), () => {
+    
+}
