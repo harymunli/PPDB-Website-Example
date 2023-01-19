@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 
+#circle-icon {
+  color: green;
+  scale: 3;
+  z-index: 0;
+  display: block;
+  margin-top: 25px;
+  margin-left: 48%;
+  margin-right: 40%;
+}
+
 #index_input{
   background-color: #d1d5db;
   color:#6b7280;
