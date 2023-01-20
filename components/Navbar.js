@@ -14,7 +14,6 @@ class Menu_Navbar extends React.Component{
         }else{
             return(<div id="nav-menu" class="col-span-2 grid-cols-4 ml-16 lg:space-x-8">
                         <a href="/">Home</a>
-                        <a href="#faq">Informasi PPDB</a>
                         <a href="#kontak">Kontak</a>
                         <a href="/daftar">Daftar PPDB</a>
                     </div>)
