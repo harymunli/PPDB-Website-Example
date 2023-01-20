@@ -1,8 +1,10 @@
+## How to Run development
+- npm run dev
+
 ## Contoh Website PPDB
 This web has 3 Page:
 - Landing Page
 - Register Page
-- Login page
 - Register Success Page
 
 
