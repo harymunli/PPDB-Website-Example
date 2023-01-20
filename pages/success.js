@@ -3,7 +3,7 @@ import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import FileCopyIcon from '@material-ui/icons/FileCopy';
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import {CopyToClipboard} from 'react-download-link';
 
 export default class success extends React.Component{
     constructor(props) {
