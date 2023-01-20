@@ -33,7 +33,7 @@ export default class Daftar extends React.Component {
                                 <button className=" text-white bg-blue-900 hover:bg-blue-700 p-2 mx-8 rounded-lg w-[200px]"> Daftar</button>
                                 </Link>
                             </div>
-                            Sudah punya akun? klik disini
+                            <p className='text-center'> Sudah punya akun? <a className='text-blue-700' href='/login'>klik disini</a> </p>
                         </div>
                     </form>
                 </main>
