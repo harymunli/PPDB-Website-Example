@@ -3,7 +3,7 @@ import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import FileCopyIcon from '@material-ui/icons/FileCopy';
-import {CopyToClipboard} from 'react-download-link';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 export default class success extends React.Component{
     constructor(props) {
@@ -28,6 +28,8 @@ export default class success extends React.Component{
                         <p className='mt-2 text-center'>Pembayaran biaya pendaftaran sebesar Rp 200.000</p>
                         <div className="flex flex-cols-2 space-x-1 mx-auto">
                             <input type="text" value="93682739172" readonly className='text-center border-2 shadow-lg w-[150px]'/>
+                            
+                            
                             <CopyToClipboard className="shrink" text="93682739172" 
                                 onCopy={() => this.setState({copied: true})}>
                                 <button><FileCopyIcon/></button>
